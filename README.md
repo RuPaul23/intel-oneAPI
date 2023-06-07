@@ -1,8 +1,8 @@
 # intel-oneAPI
 
-#### Team Name -
+#### Team Name - Team Oxygen
 #### Problem Statement - 
-#### Team Leader Email -
+#### Team Leader Email - paulrohit2021@gmail.com
 
 ## A Brief of the Prototype:
   This section must include UML Daigrms and prototype description
