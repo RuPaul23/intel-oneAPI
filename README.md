@@ -13,14 +13,14 @@ solution that can help address this challenge and hopefully solve it for greater
   
 ## Tech Stack: 
    
-# Model tracking and optimization:
+### Model tracking and optimization:
 MLflow 
 Neptune.ai 
 Wandb 
 Comet.ml
 Tensorboarda
 
-# Modelserving and web app development:
+### Modelserving and web app development:
 One API
 Django
 FastAPI
