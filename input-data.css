@@ -1,0 +1,205 @@
+.input-data-child {
+  position: absolute;
+  top: 41px;
+  left: 463px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-deepskyblue-100);
+  width: 1017px;
+  height: 57px;
+}
+.group-child6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gainsboro);
+  width: 1440px;
+  height: 93px;
+}
+.early-warning-system2 {
+  position: absolute;
+  top: 20px;
+  left: 258px;
+}
+.rectangle-parent6 {
+  position: absolute;
+  top: 1159px;
+  left: 0;
+  width: 1440px;
+  height: 93px;
+  font-size: var(--font-size-21xl);
+}
+.home2 {
+  position: absolute;
+  top: 57px;
+  left: 531px;
+  cursor: pointer;
+}
+.about-us3,
+.contact3,
+.input-data3,
+.sign-in4 {
+  position: absolute;
+  top: 57px;
+  left: 639px;
+  cursor: pointer;
+}
+.contact3,
+.input-data3,
+.sign-in4 {
+  left: 790px;
+}
+.input-data3,
+.sign-in4 {
+  left: 935px;
+}
+.input-data3 {
+  left: 1057px;
+}
+.input-data4 {
+  position: absolute;
+  top: 223px;
+  left: 649px;
+  font-size: var(--font-size-21xl);
+}
+.analysis-data2 {
+  position: absolute;
+  top: 57px;
+  left: 1222px;
+  cursor: pointer;
+}
+.group-child7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-deepskyblue-100);
+  width: 327px;
+  height: 68px;
+}
+.analyze {
+  position: absolute;
+  top: 10px;
+  left: 93.14px;
+  display: inline-block;
+  width: 160.97px;
+}
+.rectangle-parent7 {
+  position: absolute;
+  top: 875px;
+  left: 608px;
+  width: 327px;
+  height: 68px;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+}
+.attendance,
+.upload-a-dataset {
+  position: absolute;
+  top: 703px;
+  left: 97px;
+  font-size: var(--font-size-17xl);
+}
+.attendance {
+  top: 390px;
+}
+.logo-icon2 {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 425px;
+  height: 180px;
+  object-fit: cover;
+}
+.behavioral-patterns,
+.grades {
+  position: absolute;
+  top: 599px;
+  left: 97px;
+  font-size: var(--font-size-17xl);
+}
+.grades {
+  top: 489px;
+}
+.input-data-item {
+  position: absolute;
+  top: 396px;
+  left: 466px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro);
+  width: 323px;
+  height: 49px;
+  mix-blend-mode: normal;
+}
+.input-data-inner {
+  top: 484px;
+  left: 466px;
+}
+.group-child8,
+.input-data-child1,
+.input-data-inner {
+  position: absolute;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro);
+  width: 323px;
+  height: 49px;
+}
+.input-data-child1 {
+  top: 599px;
+  left: 466px;
+  mix-blend-mode: darken;
+}
+.group-child8 {
+  top: 0;
+  left: 0;
+}
+.choose-the-file {
+  position: absolute;
+  top: 10px;
+  left: 72px;
+  background: linear-gradient(rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.13)),
+    rgba(0, 0, 0, 0.58);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.rectangle-parent8 {
+  position: absolute;
+  top: 700px;
+  left: 466px;
+  width: 323px;
+  height: 49px;
+  font-size: var(--font-size-5xl);
+}
+.no-file-choosen {
+  position: absolute;
+  top: 707px;
+  left: 832px;
+  font-size: var(--font-size-11xl);
+}
+.image-1-icon {
+  position: absolute;
+  top: 237px;
+  left: 980px;
+  border-radius: var(--br-31xl);
+  width: 395px;
+  height: 395px;
+  object-fit: cover;
+}
+.input-data2 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1252px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+#ip2 {
+  border-radius: 25px;
+  border: 2px solid #609;
+  padding: 20px; 
+  width: 200px;
+  height: 15px; 
+  float: middle; 
+}
