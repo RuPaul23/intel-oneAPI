@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=JejuMyeongjo:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="analyze">
+      <div class="analyze-child"></div>
+      <div class="home" id="hOMEText">HOME</div>
+      <div class="about-us" id="aBOUTUSText">ABOUT US</div>
+      <div class="contact">CONTACT</div>
+      <div class="sign-in" id="sIGNINText">SIGN IN</div>
+      <div class="input-data" id="iNPUTDATAText">INPUT DATA</div>
+      <div class="analysis-data" id="aNALYSISDATAText">ANALYSIS DATA</div>
+      <img class="logo-icon" alt="" src="./public/logo@2x.png" />
+
+      <div class="rectangle-parent">
+        <div class="group-child"></div>
+        <div class="early-warning-system">
+          © 2023 Early Warning System for Student Dropouts
+        </div>
+      </div>
+      <div class="rectangle-group">
+        <div class="group-item" data-scroll-to="rectangle"></div>
+        <div class="your-analysis">Your analysis:</div>
+      </div>
+      <div class="circular-graph">
+        <div class="inner-circle"></div>
+        <div class="div">32.01%</div>
+        <div class="this-week">This week</div>
+        <div class="outer-circle"></div>
+      </div>
+      <div class="data-list">
+        <div class="dropout-rate">Dropout rate :</div>
+        <div class="datagraph-result">
+          <div class="item">previous week</div>
+          <div class="statistic">29%</div>
+          <div class="divider"></div>
+          <div class="icon"></div>
+        </div>
+        <div class="datagraph-result1">
+          <div class="item">May</div>
+          <div class="statistic">47%</div>
+          <div class="divider"></div>
+          <div class="icon1"></div>
+        </div>
+        <div class="datagraph-result2">
+          <div class="item">April</div>
+          <div class="statistic">25%</div>
+          <div class="divider"></div>
+          <div class="icon2"></div>
+        </div>
+        <div class="datagraph-result3">
+          <div class="item">March</div>
+          <div class="statistic">34%</div>
+          <div class="divider"></div>
+          <div class="icon3"></div>
+        </div>
+        <div class="datagraph-result4">
+          <div class="item">February</div>
+          <div class="statistic">37%</div>
+          <div class="divider"></div>
+          <div class="icon4"></div>
+        </div>
+        <div class="datagraph-result5">
+          <div class="item">January</div>
+          <div class="statistic">45%</div>
+          <div class="divider"></div>
+          <div class="icon5"></div>
+        </div>
+      </div>
+      <div class="status-average">Status : Average</div>
+      <div class="item6">January</div>
+    </div>
+
+    <script>
+      var hOMEText = document.getElementById("hOMEText");
+      if (hOMEText) {
+        hOMEText.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      
+      var aBOUTUSText = document.getElementById("aBOUTUSText");
+      if (aBOUTUSText) {
+        aBOUTUSText.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='rectangle']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var sIGNINText = document.getElementById("sIGNINText");
+      if (sIGNINText) {
+        sIGNINText.addEventListener("click", function (e) {
+          window.location.href = "./sign-in.html";
+        });
+      }
+      
+      var iNPUTDATAText = document.getElementById("iNPUTDATAText");
+      if (iNPUTDATAText) {
+        iNPUTDATAText.addEventListener("click", function (e) {
+          window.location.href = "./input-data.html";
+        });
+      }
+      
+      var aNALYSISDATAText = document.getElementById("aNALYSISDATAText");
+      if (aNALYSISDATAText) {
+        aNALYSISDATAText.addEventListener("click", function (e) {
+          window.location.href = "./input-data.html";
+        });
+      }
+      </script>
+  </body>
+</html>
