@@ -16,7 +16,7 @@ solution that can help address this challenge and hopefully solve it for greater
 ### Model tracking and optimization:
 MLflow,
 Neptune.ai,
-Tensorboarda,
+Tensorboard,
 Google Collab
 
 ### Modelserving and web app development:
