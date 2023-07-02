@@ -28,9 +28,9 @@ AWS Lambda,
 
    
 ## Step-by-Step Code Execution Instructions:
+ importing modules 
+ pip install pandas numpy yellowbrick matplotlib scikit-learn-intelex flask pickle
  
-  ### intel
-  *open index.html*
 
   Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
 
@@ -41,6 +41,12 @@ AWS Lambda,
   
 The process of working of this early student dropout detector is explained below step-by-step
 
+In terminal :
+  python web.py
+
+Open broswer and run the localhost :
+  http://127.0.0.1:5000/
+   
 Data Collection:
 The first step in building a student dropout detector is collecting relevant data. This data may include student demographics, academic performance, attendance records, socio-economic factors, and other relevant information. Educational institutions can utilize their existing student information systems or surveys to gather this data.The data is collected via our website which take the input data or a csv dataset file.
 
