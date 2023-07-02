@@ -2,6 +2,8 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+from sklearnex import patch_sklearn
+patch_sklearn()
 from sklearn.cluster import KMeans
 from yellowbrick.cluster import KElbowVisualizer
 import pickle
