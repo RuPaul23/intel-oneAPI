@@ -28,17 +28,27 @@ AWS Lambda,
 
    
 ## Step-by-Step Code Execution Instructions:
- importing modules 
- pip install pandas numpy yellowbrick matplotlib scikit-learn-intelex flask pickle
-  
-The process of working of this early student dropout detector is explained below step-by-step
+ To execute the code for the early student dropout detector, follow the step-by-step instructions below:
 
-In terminal :
-  python web.py
-
-Open broswer and run the localhost :
-  http://127.0.0.1:5000/
+1. Open your terminal or command prompt.
+2. Install the required modules by running the following command:
+   ```
+   pip install pandas numpy yellowbrick matplotlib scikit-learn-intelex flask pickle
+   ```
+3. Clone the GitHub repository containing the code for the early student dropout detector.
+4. Navigate to the directory where the code is located using the `cd` command.
+5. Run the Python file `web.py` by executing the following command:
+   ```
+   python web.py
+   ```
+6. Open your web browser and enter the following URL:
+   ```
+   http://127.0.0.1:5000/
+   ```
+   This will open the web interface for the student dropout detector.
    
+Note: Make sure you have the necessary dataset or data source available for the code to process.
+
 Data Collection:
 The first step in building a student dropout detector is collecting relevant data. This data may include student demographics, academic performance, attendance records, socio-economic factors, and other relevant information. Educational institutions can utilize their existing student information systems or surveys to gather this data.The data is collected via our website which take the input data or a csv dataset file.
 
